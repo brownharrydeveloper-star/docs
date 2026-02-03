@@ -1,0 +1,6 @@
+[build]
+  command = "npm install mintlify && npx mintlify build"
+  publish = ".mintlify/output"
+
+[build.environment]
+  NODE_VERSION = "20"

@@ -1,122 +1,73 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+  "name": "makerd",
+  "logo": {
+    "dark": "/logo/makerd-text-dark.svg",
+    "light": "/logo/makerd-text-light.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/makerd.png",
+  "colors": {
+    "primary": "#2dd4bf",
+    "light": "#5eead4",
+    "dark": "#14b8a6"
+  },
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
+        "group": "Introduction",
+        "pages": [
+          "index",
+          "introduction/general-rugpull-faq",
+          "introduction/rughopper-faq"
         ]
       },
       {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
+        "group": "Get Started",
+        "pages": [
+          "get-started/how-to-set-up-a-wallet",
+          "get-started/funding-your-wallet",
+          "get-started/connect-your-wallet-to-rugpull"
+        ]
+      },
+      {
+        "group": "Staking",
+        "pages": [
+          "staking/rugpull-staking",
+          "staking/reinvest",
+          "staking/auto-reinvest",
+          "staking/auto-reinvest/auto-reinvest-per-position",
+          "staking/auto-reinvest/auto-reinvest-all-positions",
+          "staking/withdraw"
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    ]
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Website",
+        "href": "https://rugpull.software"
+      },
+      {
+        "label": "Dashboard",
+        "href": "https://rugpull.software/app/dashboard"
+      },
+      {
+        "label": "Telegram",
+        "href": "https://t.me/harrybrown_rugpull"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Launch App",
+      "href": "https://rugpull.software/app/stake"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "website": "https://rugpull.software",
+      "telegram": "https://t.me/harrybrown_rugpull"
     }
   }
 }
